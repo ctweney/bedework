@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/liferay5
+END
+activemq.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/liferay5/activemq.xml
+END
+cal.options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/liferay5/cal.options.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/liferay5/build.properties
+END
+cal.properties
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/liferay5/cal.properties
+END
+carddav.options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/liferay5/carddav.options.xml
+END
+sysevents.properties
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/liferay5/sysevents.properties
+END

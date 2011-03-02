@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/oracle10g
+END
+context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/oracle10g/context.xml
+END
+activemq.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/oracle10g/activemq.xml
+END
+cal.options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/oracle10g/cal.options.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/oracle10g/build.properties
+END
+cal.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/oracle10g/cal.properties
+END
+carddav.options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/oracle10g/carddav.options.xml
+END
+sysevents.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/oracle10g/sysevents.properties
+END

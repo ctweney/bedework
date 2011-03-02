@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default
+END
+application.sysevents.properties
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default/application.sysevents.properties
+END
+activemq-jms-ds.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default/activemq-jms-ds.xml
+END
+bedework-ds.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default/bedework-ds.xml
+END
+activemq-ra.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default/activemq-ra.xml
+END
+cal.options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default/cal.options.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default/build.properties
+END
+cal.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default/cal.properties
+END
+bedework-card-ds.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default/bedework-card-ds.xml
+END
+activemq-broker-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default/activemq-broker-config.xml
+END
+carddav.options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default/carddav.options.xml
+END
+sysevents.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/bedework/!svn/ver/3072/releases/bedework-3.7/config/bwbuild/default/sysevents.properties
+END
