@@ -1,55 +1,0 @@
-10
-
-dir
-3080
-https://bedework.org/svn/bedework/releases/bedework-3.7/config/bwbuild
-https://bedework.org/svn/bedework
-
-
-
-2010-11-24T18:33:53.657815Z
-3070
-douglm
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-44982b2c-cc0a-0410-892b-d264454eb065
-
-.portal
-dir
-
-geronimo
-dir
-
-liferay5
-dir
-
-jboss-postgresql
-dir
-
-.platform
-dir
-
-jboss-mysql
-dir
-
-default
-dir
-
-jboss-h2
-dir
-
-oracle10g
-dir
-
