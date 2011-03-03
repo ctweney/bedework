@@ -2,7 +2,7 @@
 
 BEDE_HOME=~/bedework/quickstart-3.7
 
-cd ~-
+cd ~/
 git pull
 
 cd $BEDE_HOME
