@@ -1,0 +1,245 @@
+Apple iCal gets the whole calendar at once with a propfind:
+
+http://test.media.berkeley.edu:8080/ucaldav/user/vbede/calendar/
+Here's the POST data on that:
+<?xml version="1.0" encoding="utf-8"?>
+<x0:propfind xmlns:x0="DAV:" xmlns:x1="http://calendarserver.org/ns/">
+ <x0:prop>
+  <x0:getetag/>
+  <x0:resourcetype/>
+  <x1:notificationtype/>
+ </x0:prop>
+</x0:propfind>
+
+Here's the response to the PROPFIND:
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<DAV:multistatus xmlns:ns0="http://calendarserver.org/ns/"
+              xmlns:DAV="DAV:"
+              xmlns="urn:ietf:params:xml:ns:caldav"
+              xmlns:ical="http://www.w3.org/2002/12/cal/ical#">
+  <DAV:response>
+    <DAV:href>/ucaldav/user/vbede/calendar/</DAV:href>
+    <DAV:propstat>
+      <DAV:prop>
+        <DAV:getetag>"20110307T204511Z-62"</DAV:getetag>
+        <DAV:resourcetype>
+          <DAV:collection/>
+          <calendar/>
+        </DAV:resourcetype>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 200 ok</DAV:status>
+    </DAV:propstat>
+    <DAV:propstat>
+      <DAV:prop>
+        <ns0:notificationtype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 404 not_found</DAV:status>
+    </DAV:propstat>
+  </DAV:response>
+  <DAV:response>
+    <DAV:href>/ucaldav/user/vbede/calendar/98C08C29-1DDF-4CD4-A56B-BEE2EEA7666D.ics</DAV:href>
+    <DAV:propstat>
+      <DAV:prop>
+        <DAV:getetag>"20110302T174101Z-0"</DAV:getetag>
+        <DAV:resourcetype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 200 ok</DAV:status>
+    </DAV:propstat>
+    <DAV:propstat>
+      <DAV:prop>
+        <ns0:notificationtype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 404 not_found</DAV:status>
+    </DAV:propstat>
+  </DAV:response>
+  <DAV:response>
+    <DAV:href>/ucaldav/user/vbede/calendar/F974136B-8743-47A7-94AD-EA152D441FFE.ics</DAV:href>
+    <DAV:propstat>
+      <DAV:prop>
+        <DAV:getetag>"20110302T003407Z-0"</DAV:getetag>
+        <DAV:resourcetype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 200 ok</DAV:status>
+    </DAV:propstat>
+    <DAV:propstat>
+      <DAV:prop>
+        <ns0:notificationtype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 404 not_found</DAV:status>
+    </DAV:propstat>
+  </DAV:response>
+  <DAV:response>
+    <DAV:href>/ucaldav/user/vbede/calendar/96D39F4B-2D16-4A18-963D-46D754426680.ics</DAV:href>
+    <DAV:propstat>
+      <DAV:prop>
+        <DAV:getetag>"20110302T183508Z-0"</DAV:getetag>
+        <DAV:resourcetype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 200 ok</DAV:status>
+    </DAV:propstat>
+    <DAV:propstat>
+      <DAV:prop>
+        <ns0:notificationtype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 404 not_found</DAV:status>
+    </DAV:propstat>
+  </DAV:response>
+  <DAV:response>
+    <DAV:href>/ucaldav/user/vbede/calendar/717a6b8f-980d-4ca8-acb8-6079967830f3.ics</DAV:href>
+    <DAV:propstat>
+      <DAV:prop>
+        <DAV:getetag>"20110307T204440Z-0"</DAV:getetag>
+        <DAV:resourcetype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 200 ok</DAV:status>
+    </DAV:propstat>
+    <DAV:propstat>
+      <DAV:prop>
+        <ns0:notificationtype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 404 not_found</DAV:status>
+    </DAV:propstat>
+  </DAV:response>
+  <DAV:response>
+    <DAV:href>/ucaldav/user/vbede/calendar/c8e78108-7c54-4bd6-b3cc-5e35fa20c92b.ics</DAV:href>
+    <DAV:propstat>
+      <DAV:prop>
+        <DAV:getetag>"20110307T204247Z-0"</DAV:getetag>
+        <DAV:resourcetype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 200 ok</DAV:status>
+    </DAV:propstat>
+    <DAV:propstat>
+      <DAV:prop>
+        <ns0:notificationtype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 404 not_found</DAV:status>
+    </DAV:propstat>
+  </DAV:response>
+  <DAV:response>
+    <DAV:href>/ucaldav/user/vbede/calendar/cd8a6806-ba12-4d88-b38c-6b14a392730e.ics</DAV:href>
+    <DAV:propstat>
+      <DAV:prop>
+        <DAV:getetag>"20110307T193937Z-0"</DAV:getetag>
+        <DAV:resourcetype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 200 ok</DAV:status>
+    </DAV:propstat>
+    <DAV:propstat>
+      <DAV:prop>
+        <ns0:notificationtype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 404 not_found</DAV:status>
+    </DAV:propstat>
+  </DAV:response>
+  <DAV:response>
+    <DAV:href>/ucaldav/user/vbede/calendar/CE62ABEE-D9D6-4722-8FE7-3DC851B698D5.ics</DAV:href>
+    <DAV:propstat>
+      <DAV:prop>
+        <DAV:getetag>"20110307T192845Z-0"</DAV:getetag>
+        <DAV:resourcetype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 200 ok</DAV:status>
+    </DAV:propstat>
+    <DAV:propstat>
+      <DAV:prop>
+        <ns0:notificationtype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 404 not_found</DAV:status>
+    </DAV:propstat>
+  </DAV:response>
+  <DAV:response>
+    <DAV:href>/ucaldav/user/vbede/calendar/756808F1-E0A8-46F6-831C-5F07070C11AE.ics</DAV:href>
+    <DAV:propstat>
+      <DAV:prop>
+        <DAV:getetag>"20110302T183447Z-0"</DAV:getetag>
+        <DAV:resourcetype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 200 ok</DAV:status>
+    </DAV:propstat>
+    <DAV:propstat>
+      <DAV:prop>
+        <ns0:notificationtype/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 404 not_found</DAV:status>
+    </DAV:propstat>
+  </DAV:response>
+</DAV:multistatus>
+
+
+Then it does a REPORT on this url to get events it doesn't already know about:
+http://test.media.berkeley.edu:8080/ucaldav/user/vbede/calendar/
+
+With this post data:
+<?xml version="1.0" encoding="utf-8" ?>
+<x0:calendar-multiget xmlns:x0="urn:ietf:params:xml:ns:caldav" xmlns:x1="DAV:"><x1:prop><x1:getetag/><x0:calendar-data/><x0:schedule-tag/></x1:prop><x1:href>/ucaldav/user/vbede/calendar/717a6b8f-980d-4ca8-acb8-6079967830f3.ics</x1:href><x1:href>/ucaldav/user/vbede/calendar/c8e78108-7c54-4bd6-b3cc-5e35fa20c92b.ics</x1:href></x0:calendar-multiget>
+
+Here's the response to that:
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<DAV:multistatus xmlns:DAV="DAV:"
+              xmlns="urn:ietf:params:xml:ns:caldav"
+              xmlns:ical="http://www.w3.org/2002/12/cal/ical#">
+  <DAV:response>
+    <DAV:href>/ucaldav/user/vbede/calendar/717a6b8f-980d-4ca8-acb8-6079967830f3.ics</DAV:href>
+    <DAV:propstat>
+      <DAV:prop>
+        <DAV:getetag>"20110307T204440Z-0"</DAV:getetag>
+        <calendar-data><![CDATA[BEGIN:VCALENDAR
+PRODID:BedeWork V3.5
+VERSION:2.0
+BEGIN:VEVENT
+CREATED:20110307T204440Z
+DURATION:PT1H
+DTSTAMP:20110307T204440Z
+DTSTART;VALUE=DATE:20110307
+LAST-MODIFIED:20110307T204440Z
+SUMMARY:caldavtest uuid = 717a6b8f-980d-4ca8-acb8-6079967830f3
+UID:717a6b8f-980d-4ca8-acb8-6079967830f3
+END:VEVENT
+END:VCALENDAR
+]]></calendar-data>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 200 ok</DAV:status>
+    </DAV:propstat>
+    <DAV:propstat>
+      <DAV:prop>
+        <schedule-tag/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 404 not_found</DAV:status>
+    </DAV:propstat>
+  </DAV:response>
+  <DAV:response>
+    <DAV:href>/ucaldav/user/vbede/calendar/c8e78108-7c54-4bd6-b3cc-5e35fa20c92b.ics</DAV:href>
+    <DAV:propstat>
+      <DAV:prop>
+        <DAV:getetag>"20110307T204247Z-0"</DAV:getetag>
+        <calendar-data><![CDATA[BEGIN:VCALENDAR
+PRODID:BedeWork V3.5
+VERSION:2.0
+BEGIN:VEVENT
+CREATED:20110307T204247Z
+DURATION:PT1H
+DTSTAMP:20110307T204247Z
+DTSTART;VALUE=DATE:20110307
+LAST-MODIFIED:20110307T204247Z
+SUMMARY:caldavtest uuid = c8e78108-7c54-4bd6-b3cc-5e35fa20c92b
+UID:c8e78108-7c54-4bd6-b3cc-5e35fa20c92b
+END:VEVENT
+END:VCALENDAR
+]]></calendar-data>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 200 ok</DAV:status>
+    </DAV:propstat>
+    <DAV:propstat>
+      <DAV:prop>
+        <schedule-tag/>
+      </DAV:prop>
+      <DAV:status>HTTP/1.1 404 not_found</DAV:status>
+    </DAV:propstat>
+  </DAV:response>
+</DAV:multistatus>
+

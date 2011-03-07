@@ -2,7 +2,7 @@
 
 STARTDATE="20110305T000000Z"
 ENDDATE="20110315T000000Z"
-SERVER_URL="http://test.media.berkeley.edu:8080/ucaldav/principals/users/vbede/"
+SERVER_URL="http://test.media.berkeley.edu:8080/ucaldav/user/vbede/calendar/"
 USER_PASS="vbede:bedework"
 
 XML='<?xml version="1.0" encoding="utf-8" ?>
@@ -43,15 +43,6 @@ XML='<?xml version="1.0" encoding="utf-8" ?>
 # strip newlines
 XML=`echo "${XML}" | tr -d '\n'`
 
-#echo "Getting OPTIONS"
-#curl -i -u $USER_PASS -X OPTIONS $SERVER_URL
-#echo
-
-echo "Doing PROPFIND"
-curl -v -i -u $USER_PASS -X PROPFIND $SERVER_URL -H "Depth: infinity"
-echo
-
-
-#curl -v -i -u $USER_PASS -X REPORT $SERVER_URL -d "$XML"
+curl -v -i -u $USER_PASS -X REPORT $SERVER_URL -d "$XML"
 
 
