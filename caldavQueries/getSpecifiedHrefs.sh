@@ -10,7 +10,7 @@ XML='<?xml version="1.0" encoding="utf-8" ?>
         <C:calendar-data/>
         <C:schedule-tag/>
     </D:prop>
-    <D:href>/ucaldav/user/vbede/calendar/9c98cfb6-4373-4ef0-aef0-f27c0fc5d05b.ics</D:href>
+    <D:href>/ucaldav/user/vbede/calendar/4e402d85-405c-4d02-b9e5-4bac1751b427.ics</D:href>
 </C:calendar-multiget>
 '
 

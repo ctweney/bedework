@@ -6,12 +6,13 @@ USER_PASS="vbede:bedework"
 XML='<?xml version="1.0" encoding="UTF-8"?>
 <C:calendar-query xmlns:C="urn:ietf:params:xml:ns:caldav" xmlns:D="DAV:">
   <D:prop>
-    <C:calendar-data/>
+	<D:getetag/> 
+	<C:calendar-data/>
   </D:prop>
   <C:filter>
     <C:comp-filter name="VCALENDAR">
       <C:comp-filter name="VEVENT">
-        <C:time-range start="20110301T133411Z" end="20110315T133411Z"/>
+        <C:time-range start="20110301T000000Z" end="20110331T235959Z"/>
       </C:comp-filter>
     </C:comp-filter>
   </C:filter>
@@ -25,6 +26,6 @@ echo "Posting XML to server: "
 echo $XML
 echo "Response:"
 echo
-curl -i -u $USER_PASS -X REPORT $SERVER_URL -d "$XML"
+curl -i -u $USER_PASS -X REPORT $SERVER_URL -d "$XML" -H "Depth: infinity"
 
 
