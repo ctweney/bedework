@@ -7,6 +7,6 @@ git pull
 
 cd $BEDE_HOME
 cp -R ~/quickstart_customizations/* .
-./bw -bwchome $BEDE_HOME/bedework/config/bwbuild -bwc default deploy.debug
+./bw -bwchome $BEDE_HOME/bedework/config/bwbuild -bwc jboss-mysql deploy.debug
 
 
