@@ -2,12 +2,14 @@
 
 <!-- Myberkeley custom:
 
-Swap this file for login-config.xml to users.properties as your
-authentication system instead of ApacheDS LDAP or CAS. 
+Swap this file for login-config.xml to enable the SimpleServerLoginModule,
+which is VERY unsecure. When it's enabled anyone can log in as any user
+by supplying the username as the password. 
 
 Do NOT leave in production! 
 
-This is for one-time user setup only. 
+This is for one-time use only in setting up Bedework accounts for all
+our MyBerkeley users.  
 -->
 
 <!-- The XML based JAAS login configuration read by the
@@ -119,9 +121,9 @@ $Revision: 87078 $
 
   <application-policy name="bedeworkdemo">
         <authentication>
-	<login-module code="org.jboss.security.auth.spi.UsersRolesLoginModule" flag="required">
-		<module-option name="hashAlgorithm">MD5</module-option>
-		<module-option name="hashEncoding">base64</module-option>
+	<login-module code="org.jboss.security.auth.spi.SimpleServerLoginModule" flag="required">
+		<!-- lets anyone log in as any user as 
+			long as username=password -->
 	</login-module>
         </authentication>
     </application-policy>
